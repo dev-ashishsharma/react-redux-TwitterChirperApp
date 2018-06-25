@@ -4,6 +4,9 @@ The app also uses to store some state in React, which is not mutated or used any
 
 The app demonstrates how a redux store could be structured in a Twitter Application.
 
+The App user feature is currently a hardcoded user in shared.js in actions. It can be any
+one of the 3 users defined in _DATA.js file.
+
 ## Install
 Clone or download this app.
 
