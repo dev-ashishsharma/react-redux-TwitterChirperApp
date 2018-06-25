@@ -4,6 +4,9 @@ import { receiveTweets } from '../actions/tweets'
 import { setAuthedUser } from '../actions/authedUser'
 import { showLoading, hideLoading } from 'react-redux-loading'
 
+// Currently Hardcoded: Can be any one of:
+// sarah_edo , tylermcginnis, dan_abramov
+// based on _DATA.js
 const AUTHED_ID = 'tylermcginnis'
 
 export function handleInitialData () {
